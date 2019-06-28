@@ -1,5 +1,4 @@
 #!/bin/bash --login
 
-. /usr/bin/prepare-build
-
-sh $@
+source /usr/bin/prepare-build
+source $@
